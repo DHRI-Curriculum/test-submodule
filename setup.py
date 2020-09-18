@@ -2,6 +2,7 @@ from localdjango.setup import read, check_sections_directory, split_into_section
     write_lessons, get_toc, get_nav, insert_get_started_button, slugify, LICENSE, \
     split_frontmatter, split_lessons, get_image_or_title, write_readme
 
+
 if __name__ == "__main__":
 
     workshop_title = 'test'
