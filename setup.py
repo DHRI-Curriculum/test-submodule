@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     # Get started button
     README += '---\n\n'
-    README += insert_get_started_button(get_toc(all_content))
+    README += insert_get_started_button(url=get_toc(all_content)[1]['path'])
     README += '---\n\n'
 
     ## Acknowledgements
